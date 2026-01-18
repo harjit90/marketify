@@ -9,7 +9,8 @@ const Navbar = () => {
                     <div className='container'>
 
                         <NavLink className='navbar-brand' to='/'>
-                            <div className='logo'><img src={logo} alt='logo image' />
+                            <div className='logo'>
+                                <img src={logo} alt='logo image' />
                             </div>
                         </NavLink>
 
