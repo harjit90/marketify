@@ -78,7 +78,7 @@ const Contact = () => {
                                     </textarea>
                                 </div>
 
-                                <button type="submit" class="btn btn-primary btn-block mb-3">Send</button>
+                                <button type="submit" className="btn btn-primary btn-block mb-3">Send</button>
                             </form>
                         </div>
                     </div>
