@@ -15,10 +15,10 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route exact path='/' element={<Home />} />
-        <Route exact path='/about' element={<About />} />
-        <Route exact path='/service' element={<Service />} />
-        <Route exact path='/contact' element={<Contact />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/about' element={<About />} />
+        <Route path='/service' element={<Service />} />
+        <Route path='/contact' element={<Contact />} />
         <Route path="*" element={<Navigate to="/" />} />
       </Routes>
       <Footer />
